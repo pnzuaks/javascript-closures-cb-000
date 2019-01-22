@@ -8,4 +8,6 @@ function fatBastard(meal) {
       console.log(`I'm eatin' a bit of ${meal}! Burp.`);
     }
   }
+  return whatsForDinner;
+
 }
