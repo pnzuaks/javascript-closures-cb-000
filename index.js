@@ -33,7 +33,17 @@ function raspyDoorGuy() {
       console.log('Begone, landlubber!');
     }
   }
+
+  function bribe(amount) {
+    if (willBreakPrinciples(amount)) { /on
+      return password; // bribe() uses variable declared in the parent function
+    } else {
+      console.log("Pssht. That won't work.");
+    }
+  }
+
   return {
-    givePassword
+    givePassword,
+    bribe
   }
 }
