@@ -3,7 +3,7 @@ const app = "I don't do much."
 function fatBastard(meal) {
   function whatsForDinner() {
     if (!meal) {
-      
+       console.log('My belly is empty. Woe is me.');
     }
     else if (meal === "Mini-Me") {
       console.log('The wee man is in my belly!');
