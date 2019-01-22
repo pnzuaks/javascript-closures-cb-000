@@ -30,7 +30,7 @@ function raspyDoorGuy() {
     if (givenPassword === password) {
       console.log('Ye may enter.');
     } else {
-      
+      console.log('Begone, landlubber!');
     }
   }
 }
