@@ -29,7 +29,8 @@ function raspyDoorGuy() {
   function givePassword(givenPassword) {
     if (givenPassword === password) {
       console.log('Ye may enter.');
-
+    } else {
+      
     }
   }
 }
