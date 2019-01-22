@@ -26,5 +26,9 @@ function fatBastard(meal) {
 function raspyDoorGuy() {
   const password = 'yarr'
 
-  function givePassword(giv)
+  function givePassword(givenPassword) {
+    if (givenPassword === password) {
+      
+    }
+  }
 }
