@@ -21,3 +21,10 @@ function fatBastard(meal) {
     digest
   }
 }
+
+
+function raspyDoorGuy() {
+  const password = 'yarr'
+
+  function givePassword(giv)
+}
