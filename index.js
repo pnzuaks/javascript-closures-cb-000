@@ -33,4 +33,5 @@ function raspyDoorGuy() {
       console.log('Begone, landlubber!');
     }
   }
+  return 
 }
